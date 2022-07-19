@@ -45,7 +45,7 @@ a {
 
 
 .w70-center {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -340,7 +340,7 @@ a {
     color: #599c2a;   
     font-family: Courier New;
     font-weight: 600;
-    width: 60%;
+    width: 100%;
     line-height:1.2;
 }
 
@@ -660,3 +660,7 @@ border-radius: 5px;
     border-radius: 2px;
 
 }
+.success-story{
+    margin:30px auto;
+    
+} 
