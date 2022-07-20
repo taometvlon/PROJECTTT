@@ -347,7 +347,7 @@ a {
 .cap2 {
     font-size: 30px;
     font-family: monospace;
-    color: white;
+    color: rgb(0, 0, 0);
     line-height: 1.4;
 
 
@@ -663,4 +663,70 @@ border-radius: 5px;
 .success-story{
     margin:30px auto;
     
+    
 } 
+
+.content-success1,
+.content-success2,
+.content-success3,
+.content-success4,
+.content-success5,
+.content-success6{
+    margin-bottom:30px;
+}
+.content-success1 .content,
+.content-success2 .content,
+.content-success3 .content,
+.content-success4 .content,
+.content-success5 .content,
+.content-success6 .content{
+    letter-spacing:1.5px;
+    line-height:1.6;
+}
+
+
+.content-success1 img{
+    float:left;
+    padding-right:40px;
+    padding-bottom:21px;
+    margin-left: 40px;
+    width:700px;
+
+}
+
+.content-success2 img{
+    float:right;
+    padding-left:40px;
+    padding-bottom:21px;
+    width: 400px;
+}
+.content-success3 img{
+width: 1000px;
+margin-top :30px;
+}
+.content-success3 .img3{
+   margin-left:auto;
+   margin-right:auto;
+    margin-bottom:21px;
+    width: 1000px;
+}
+.content-success3 .content{
+    text-align:center;
+}
+.content-success4 .img4{
+    
+    margin-left: 40px;
+     margin-bottom:21px;
+     width: 1000px;
+ }
+ .content-success6{
+    height:300px
+ }
+ .content-success6 img{
+    
+    float:right;
+     width: 500px;
+     padding-right:40px;
+     
+     
+ }
