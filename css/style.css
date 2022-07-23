@@ -25,7 +25,9 @@ html {
 a {
     text-decoration: none !important;
 }
-
+.content-footer p a{ 
+    color: #599c2a;
+}
 .content-footer p {
     font-size: 18px;
     line-height: 1.4;
@@ -389,7 +391,7 @@ a {
 .cap2 {
     font-size: 30px;
     font-family: monospace;
-    color: #599c2a;
+    color: rgb(0, 0, 0);
     line-height: 1.4;
 
 
