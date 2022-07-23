@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link rel="stylesheet" href="icon/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="javascript/css.css" />
+    <script src="javascript/javascript.js"></script>
 </head>
 
 <body>
@@ -463,37 +466,26 @@
                         <div class="content-green">Let's Nature, Your feeling</div>
                         <h1 class="content-blue" id="Feed Back To Us">Feed Back To Us</h1>
 
-                    </div>
-                    <div class="infor flex">
-                        <div class="feedback">
-                            <form action="" class="form">
-                                <div class="input1-content7 flex-beteen">
-                                    <div class="input-content7">
-                                        <label for="name-content7">Name:</label><br>
-                                        <input id="name-content7" type="text" placeholder="Enter your Name" required>
-                                    </div>
-                                    <div class="input-content7">
-                                        <label for="email-content7">Email:</label><br>
-                                        <input id="email-content7" type="email" placeholder="Enter your Email" required>
-                                    </div>
-                                </div>
+                   <div id="panel" class="panel-container">
+      <strong>How satisfied are you with our <br /> customer support performance?</strong>
+      <div class="ratings-container">
+        <div class="rating">
+          <img src="javascript/sad.png" alt="">
+          <small>Unhappy</small>
+        </div>
 
-                                <div class="input2-content7">
-                                    <div class="textarea-content7">
-                                        <label for="comment-content7">Comment:</label>
-                                        <textarea name="" id="comment-content7" cols="30" rows="10"
-                                            placeholder="Enter your Comment" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="flex button-content7">
-                                    <button onclick="myFeedback()">
-                                        Feed Back
-                                    </button>
+        <div class="rating">
+         <img src="javascript/smiling-face.png" alt=""/>
+          <small>Neutral</small>
+        </div>
 
-                                </div>
-                            </form>
-                        </div>
-
+        <div class="rating active">
+          <img src="javascript/smiling.png" alt=""/>
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
                     </div>
                 </div>
 
