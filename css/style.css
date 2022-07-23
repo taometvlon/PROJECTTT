@@ -684,6 +684,11 @@ font-size: 14px !important;
     width: 270px;
     font-size: 14px;
 }
+#email button{
+    border: none;
+    outline: none;
+    color: #599c2a;
+}
 
 .fa-duotone .fa-paper-plane {
     color: #1F2B6C;
@@ -779,3 +784,8 @@ margin-top :30px;
      
      
  }
+.bar1 {
+    background-color: cyan;
+    color: white;
+}
+
