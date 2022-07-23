@@ -670,6 +670,9 @@ border-radius: 5px;
 
 
 }
+.content1-footer .email::placeholder { 
+font-size: 14px !important;
+}
 #email-content7 {
     outline: none !important;
 }
