@@ -84,7 +84,7 @@
 
 
         <div class="element-header2">
-            <a href="facility.html">Facility</a>
+            <a href="facility.html" class="bar1">Facility</a>
 
         </div>
 
@@ -267,9 +267,12 @@
                             <p>Some country</p>
                         </th>
                         <th>
-                            <div id="email"><input class="email" type="email" name=""
-                                    placeholder="Enter your email address"><i class="fa-solid fa-paper-plane"></i></div>
+                              <div id="email">
+                                <input type="email" class="email" name="email" placeholder="Please enter your address"
+                                    id="myemail" required>
 
+                                <button onclick="return vari()"><i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
                         </th>
                     </tr>
                 </table>
@@ -311,7 +314,19 @@
         <script src="../facility/assets/js/bootstrap.min.js"></script>
 
         <script src="../facility/assets/js/script.js"></script>
-    
+     <script>
+        var myyemail = document.getElementById('myemail');
+
+        function vari() {
+            const myyemail = myemail.value.trim();
+            if (myyemail === '') {
+                alert("address is required")
+            }
+            else {
+                alert("thank you");
+            }
+        } 
+    </script>
     <script>
 function myFunction(e) {
 let col = document.querySelectorAll('ul#myUL li a');
