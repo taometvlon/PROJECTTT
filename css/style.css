@@ -496,6 +496,10 @@ border-radius: 5px;
 }
 .fa-regular .fa-heart{
     color:red;
+
+}
+.discript-content5 span{
+font-size:16px !important;
 }
 .content5 .infor img {
     float: left;
@@ -510,7 +514,7 @@ border-radius: 5px;
 }
 
 .discript-content5 {
-    padding-left: 35%;
+    padding-left: 170px !important;
 
 }
 
@@ -647,6 +651,12 @@ border-radius: 5px;
     width: 100%;
     text-align: left;
     margin-bottom: 20px;
+}
+.content1-footer h1{
+    color:#599c2a !important;
+}
+.content1-footer h2{
+    color:#599c2a !important;
 }
 
 .content2-footer p,
