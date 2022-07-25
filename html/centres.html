@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="..\icon\fontawesome-free-6.1.1-web\css\all.css">
     <link rel="stylesheet" href="../css/style.css">
     <style>
+        hr {
+            width: 80%;
+            margin: 0 auto;
+
+        }
+
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
         * {
@@ -30,16 +36,18 @@
 
         .headline {
             text-align: center;
-            margin: 40px 0px;
+            margin-bottom: 40px;
         }
 
         #wrapper .headline h1 {
-            font-size: 2rem;
+            font-size: 40px;
             color: #223A66;
             padding: 10px 20px;
             text-transform: uppercase;
             display: inline-block;
             font-weight: 600;
+            margin-top: 70px;
+            margin-bottom: 40px;
 
 
         }
@@ -60,9 +68,14 @@
             margin-bottom: 10px
         }
 
+        .product-thumb img:hover {
+            opacity: 0.7;
+        }
+
         .product-thumb h2 {
             color: #159EEC;
-            margin-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 22px;
         }
 
         .product-top p {
@@ -75,6 +88,69 @@
         .product-item {
             padding: 0 20px;
             margin: 0 -10px;
+        }
+
+        .centres-cap {
+            height: 200px;
+        }
+
+        .headline .centres-cap .centre-cap1 {
+            float: left;
+            width: 50%;
+            padding-right: 40px;
+            text-align: left;
+            line-height: 1.6;
+            letter-spacing: 2px;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .headline .centres-cap .centre-cap2 {
+            float: right;
+            width: 50%;
+            text-align: left;
+            line-height: 1.6;
+            letter-spacing: 2px;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+
+        .central-care p,
+        .central-care h1 {
+            text-align: center;
+            width: 100%;
+            line-height: 1.6;
+            letter-spacing: 2px;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+        }
+
+        .central-name a {
+            font-size: 20px;
+            color:#159EEC ;
+            text-transform: uppercase;
+        }
+        .central-name a:hover {
+            
+            color:#599c2a ;
+        }
+
+        .central .central-icon {
+            font-size: 70px;
+            border-radius: 100%;
+            /* background-color:#159EEC; */
+            border: 4px solid #159EEC;
+            height: 150px;
+            width: 150px;
+            margin: 20px auto;
+            color: #159EEC;
+            line-height: 150px;
+        }
+
+        .central .central-icon:hover {
+            background-color: #159EEC;
+            color: white;
         }
     </style>
 </head>
@@ -90,35 +166,17 @@
                         </div>
                     </th>
                     <th>
-                             <div class=" search">
+                        <div class="search">
                             <label for="search"><i style="margin-left:13px;margin-right:5px;"
                                     class="fa-solid fa-magnifying-glass"></i></label>
-                            <input id="search" name="search" type="text" placeholder="Search" title="Type in a name">
-                            <ul id="myUL">
-                                <li><a href="../index.html#our doctors">Our Dortors</a></li>
-                                <li><a href="../index.html#better">Better information, Better health</a></li>
-                                <li><a href="../index.html#Get in touch">Get in touch</a></li>
-                                <li><a href="../index.html#Feed Back To Us">Feed Back To Us</a></li>
-                                <li><a href="../index.html#Our Specialties">Our Specialties</a></li>
-                                <li><a href="../index.html#Our Services">Our Services</a></li>
-                                <li><a href="../department/doctor.html">Doctor</a></li>
-                                <li><a href="../department/register.html">checkout</a></li>
-                                <li><a href="facility.html#Facilities">Facilities</a></li>
-                                <li><a href="about.html#About Us">About Us</a></li>
-                                <li><a href="department.html#helpdesk">helpdesk</a></li>
-                                <li><a href="department.html#registration">registration</a></li>
-                                <li><a href="department.html#Doctor Schedule">Doctor Schedule</a></li>
-                                <li><a href="department.html#Billing and Accounts">Billing and Accounts</a></li>
-                                <li><a href="department.html#Care">Care</a></li>
-                                <li><a href="department.html#Other">Other</a></li>
-                            </ul>
+                            <input id="search" type="search" placeholder="Search">
                         </div>
                     </th>
                     <th>
                         <div class="element-header1">
                             <div class="blue"><span class="icon-header1"><i class="fa-solid fa-mobile"></i></span>Call
                                 for we!!!</div>
-                            <div class="green">Phone: 617-665-2229</div>
+                            <div class="green">Phone: +84-XXX-XXX-XXXX</div>
                         </div>
                     </th>
                     <th>
@@ -135,7 +193,7 @@
         </div>
     </div>
     <div class="header2 flex-beteen">
-        <div class="element-header2"><a href="../index.html">Home</a></div>
+        <div class="element-header2"><a href="home.html">Home</a></div>
         <div class="element-header2"><a href="about.html">About Us</a></div>
         <div class="element-header2">
             <a href="department.html">Department</a>
@@ -157,7 +215,7 @@
 
 
         <div class="element-header2">
-            <a href="centres.html" class="bar1">Centres</a>
+            <a href="centres.html">Centres</a>
 
         </div>
 
@@ -177,16 +235,16 @@
     <div class="main">
         <div id="body">
             <div class="silde flex">
-                <img src="../img/NHS-Page-and-NMC-Fitness-to-Practice-Page.jpg"
+                <img src="..\img\doctor-stethoscope-white-icon-medical-hospital-background-technology-network-concept-153850068.jpg"
                     alt="" width="100%">
                 <div class="appointment">
 
-                    <div class="cap1">Professional Meddical Service </div>
-                    <div class="cap2">Meddical availability and clinical practice varies across the world due to region different in technology</div>
+                    <div class="cap1">Nếu không có chúng tôi </div>
+                    <div class="cap2">Thì làm méo gì bạn khỏi bệnh<br>--Bảo thông thái--</div>
 
-                       <a href="../department/registration/appointment.html"><button class="appointment-bt btc">
-                            Make an Appointment
-                        </button></a>
+                    <button class="appointment-bt btc">
+                        Nhấn để trị trĩ
+                    </button>
                 </div>
             </div>
         </div>
@@ -256,56 +314,53 @@
 
         </div>
 
-    <div id="footer">
-        <div class="content-footer w70-center">
-            <div class="content1-footer">
-                <table>
-                    <tr>
-                        <th>
-                            <h1>Meddical</h1>
-                        </th>
-                        <th>
-                            <h2>Important Links</h2>
-                        </th>
-                        <th>
-                            <h2>Contact Us</h2>
-                        </th>
-                        <th>
-                            <h2>Newsletter</h2>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
+        <div id="footer">
+            <div class="content-footer w70-center">
+                <div class="content1-footer">
+                    <table>
+                        <tr>
+                            <th>
+                                <h1>Meddical</h1>
+                            </th>
+                            <th>
+                                <h2>Important Links</h2>
+                            </th>
+                            <th>
+                                <h2>Important Links</h2>
+                            </th>
+                            <th>
+                                <h2>Newsletter</h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
 
-                            <p>Leading the Way in Medical</p>
-                            <p>Execellence, Trusted Care.</p>
-                        </th>
-                        <th>
+                                <p>Leading the Way in Medical</p>
+                                <p>Execellence, Trusted Care.</p>
+                            </th>
+                            <th>
 
-                            <p><a href="../department/registration/appointment.html">Appointment</a></p>
-                            <p><a href="../department/doctor.html">Doctors</a></p>
-                            <p><a href="services.html">Services</a></p>
-                            <p><a href="about.html">About Us</a></p>
+                                <p>Appointment</p>
+                                <p>Doctors</p>
+                                <p>Services</p>
+                                <p>About Us</p>
+                            </th>
+                            <th>
 
-                        </th>
-                        <th>
+                                <p>Appointment</p>
+                                <p>Doctors</p>
+                                <p>Services</p>
+                                <p>About Us</p>
+                            </th>
+                            <th>
+                                <div id="email"><input class="email" type="email" name=""
+                                        placeholder="Enter your email address"><i class="fa-solid fa-paper-plane"></i>
+                                </div>
 
-                            <p>Call: (237) 681-812-255</p>
-                            <p>Email: <a href="mailto:someone@example.com">info@cambridgehospital.ins</a></p>
-                            <p>Address: Cambridge Health <br> Alliance 1493 <br> Cambridge Street,<br> Cambridge, MA 02139</p>
-                            <p>Some country</p>
-                        </th>
-                        <th>
-                           <div id="email">
-                                <input type="email" class="email" name="email" placeholder="Please enter your address"
-                                    id="myemail" required>
-
-                                <button onclick="return vari()"><i class="fa-solid fa-paper-plane"></i></button>
-                            </div>
-                        </th>
-                    </tr>
-                </table>
-            </div>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
                 <hr>
                 <div class="content2-footer">
                     <table>
@@ -338,33 +393,6 @@
                 s0.parentNode.insertBefore(s1, s0);
             })();
         </script>
-         <script>
-        var myyemail = document.getElementById('myemail');
-
-        function vari() {
-            const myyemail = myemail.value.trim();
-            if (myyemail === '') {
-                alert("address is required")
-            }
-            else {
-                alert("thank you");
-            }
-        } 
-    </script>
-            <script>
-          function myFunction(e) {
-    let col = document.querySelectorAll('ul#myUL li a');
-    col.forEach(n => {
-        n.parentNode.style.display = 'none';
-        n.classList.remove('bold');
-        if (this.value.length > 0 && this.value.trim() != '' && n.textContent.toLowerCase().startsWith(this.value.toLowerCase())) {
-            n.parentNode.style.display = 'block';
-            n.innerHTML = `<span class="bold">${this.value}</span>` + n.textContent.substr(this.value.length)
-        }
-    });
-}
-document.querySelector('input[name="search"]').addEventListener('keyup', myFunction);
-
         </script>
 </body>
 
